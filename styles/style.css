@@ -145,3 +145,21 @@ li {
     margin-left: auto;
     font-weight: 700;
 }
+
+.action {
+    display: flex;
+    align-items: flex-end;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    margin: 112px auto;
+    padding: 56px 112px;
+    gap: 112px;
+    border-radius: 10px;
+}
+
+.action a {
+    padding: 8px 36px;
+    border: 2px solid #F9FAF8;
+    border-radius: 10px;
+    flex-shrink: 0;
+}
